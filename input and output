@@ -1,0 +1,38 @@
+Accept numbers from a user
+
+Write a program to accept two numbers from the user and calculate multiplication
+
+prog1=int(input("enter the number: "))
+prog2=int(input("enter the nuber: "))
+result=prog1 *prog2
+print(f"Multiplication is",result)
+
+
+
+python3 mult.py
+enter the number: 2
+enter the nuber: 3
+Multiplication is 6
+
+
+
+
+----------------------------------------------------------------------------------------------------------------
+
+Display three string "My",“Name”, “Is”, “James” as “Name**Is**James”
+
+
+print('My', 'Name', 'Is', 'James', sep='**')
+My**Name**Is**James
+
+------------------------------------------------------------------------------------------
+Display float number with 2 decimal places using print()
+
+num = 458.541315
+print('%.1f' % num)
+
+output
+
+458.5
+
+-----------------------------------------------------------------------------------

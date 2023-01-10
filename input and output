@@ -36,3 +36,33 @@ output
 458.5
 
 -----------------------------------------------------------------------------------
+Accept any three string from one input() call
+
+
+str1, str2, str3 = input("Enter three string").split()
+print('Name1:', str1)
+print('Name2:', str2)
+print('Name3:', str3)
+
+
+python3 str1.py
+Enter three string thor shazam batman
+Name1: thor
+Name2: shazam
+Name3: batman
+
+--------------------------------------------------------------------------------------
+Write a program to use string.format() method to format the following three variables as per the expected output
+
+quantity = 3
+totalMoney = 1000
+price = 450
+statement1 = "I have {1} dollars so I can buy {0} football for {2:.2f} dollars."
+print(statement1.format(quantity, totalMoney, price))
+
+
+I have 1000 dollars so I can buy 3 football for 450.00 dollars.
+
+---------------------------------------------------------------------------------------------
+
+
